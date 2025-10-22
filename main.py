@@ -10,7 +10,7 @@ Salidas:
 - Matriz de similitud coseno entre documentos: similarities.csv
 
 Uso (por ejemplo):
-    python content_recommender.py --docs_dir ./docs --stopwords stopwords.txt --lemmatization lemmas.json --outdir ./salida
+    python main.py --docs_dir ./docs --stopwords ./stop-words/stop-words-en.txt --lemmatization ./corpus/corpus-en.txt --outdir ./results
 
 """
 
