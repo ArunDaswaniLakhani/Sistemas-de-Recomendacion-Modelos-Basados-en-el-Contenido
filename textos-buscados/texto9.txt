@@ -1,0 +1,78 @@
+Theory-guided strategy expands the scope of measurable quantum interactions
+An oft-ignored effect can be used to probe an important property of semiconductors, a new study finds.
+Adam Zewe | MIT News
+Publication Date: July 24, 2025
+ PRESS INQUIRIES
+A glowing atom and measurement icons
+Caption: “Being able to directly measure the electron-phonon interaction opens the door to many new possibilities,” says co-lead author Artittaya Boonkird.
+Credits: Image: MIT News; iStock
+Audio
+
+Listen to the article (AI generated voice)
+6 min
+MIT News Office
+Theory-guided strategy expands the scope of measurable quantum interactions
+
+6 min
+
+A new theory-guided framework could help scientists probe the properties of new semiconductors for next-generation microelectronic devices, or discover materials that boost the performance of quantum computers.
+
+Research to develop new or better materials typically involves investigating properties that can be reliably measured with existing lab equipment, but this represents just a fraction of the properties that scientists could potentially probe in principle. Some properties remain effectively “invisible” because they are too difficult to capture directly with existing methods.
+
+Take electron-phonon interaction — this property plays a critical role in a material’s electrical, thermal, optical, and superconducting properties, but directly capturing it using existing techniques is notoriously challenging.
+
+Now, MIT researchers have proposed a theoretically justified approach that could turn this challenge into an opportunity. Their method reinterprets neutron scattering, an often-overlooked interference effect as a potential direct probe of electron-phonon coupling strength.
+
+The procedure creates two interaction effects in the material. The researchers show that, by deliberately designing their experiment to leverage the interference between the two interactions, they can capture the strength of a material’s electron-phonon interaction.
+
+The researchers’ theory-informed methodology could be used to shape the design of future experiments, opening the door to measuring new quantities that were previously out of reach.
+
+“Rather than discovering new spectroscopy techniques by pure accident, we can use theory to justify and inform the design of our experiments and our physical equipment,” says Mingda Li, the Class of 1947 Career Development Professor and an associate professor of nuclear science and engineering, and senior author of a paper on this experimental method.
+
+Li is joined on the paper by co-lead authors Chuliang Fu, an MIT postdoc; Phum Siriviboon and Artittaya Boonkird, both MIT graduate students; as well as others at MIT, the National Institute of Standards and Technology, the University of California at Riverside, Michigan State University, and Oak Ridge National Laboratory. The research appears this week in Materials Today Physics.
+
+Investigating interference
+
+Neutron scattering is a powerful measurement technique that involves aiming a beam of neutrons at a material and studying how the neutrons are scattered after they strike it. The method is ideal for measuring a material’s atomic structure and magnetic properties.
+
+When neutrons collide with the material sample, they interact with it through two different mechanisms, creating a nuclear interaction and a magnetic interaction. These interactions can interfere with each other.
+
+“The scientific community has known about this interference effect for a long time, but researchers tend to view it as a complication that can obscure measurement signals. So it hasn’t received much focused attention,” Fu says.
+
+The team and their collaborators took a conceptual “leap of faith” and decided to explore this oft-overlooked interference effect more deeply.
+
+They flipped the traditional materials research approach on its head by starting with a multifaceted theoretical analysis. They explored what happens inside a material when the nuclear interaction and magnetic interaction interfere with each other.
+
+Their analysis revealed that this interference pattern is directly proportional to the strength of the material’s electron-phonon interaction.
+
+“This makes the interference effect a probe we can use to detect this interaction,” explains Siriviboon.
+
+Electron-phonon interactions play a role in a wide range of material properties. They affect how heat flows through a material, impact a material’s ability to absorb and emit light, and can even lead to superconductivity.
+
+But the complexity of these interactions makes them hard to directly measure using existing experimental techniques. Instead, researchers often rely on less precise, indirect methods to capture electron-phonon interactions.
+
+However, leveraging this interference effect enables direct measurement of the electron-phonon interaction, a major advantage over other approaches.
+
+“Being able to directly measure the electron-phonon interaction opens the door to many new possibilities,” says Boonkird.
+
+Rethinking materials research
+
+Based on their theoretical insights, the researchers designed an experimental setup to demonstrate their approach.
+
+Since the available equipment wasn’t powerful enough for this type of neutron scattering experiment, they were only able to capture a weak electron-phonon interaction signal — but the results were clear enough to support their theory.
+
+“These results justify the need for a new facility where the equipment might be 100 to 1,000 times more powerful, enabling scientists to clearly resolve the signal and measure the interaction,” adds Landry.
+
+With improved neutron scattering facilities, like those proposed for the upcoming Second Target Station at Oak Ridge National Laboratory, this experimental method could be an effective technique for measuring many crucial material properties.
+
+For instance, by helping scientists identify and harness better semiconductors, this approach could enable more energy-efficient appliances, faster wireless communication devices, and more reliable medical equipment like pacemakers and MRI scanners.   
+
+Ultimately, the team sees this work as a broader message about the need to rethink the materials research process.
+
+“Using theoretical insights to design experimental setups in advance can help us redefine the properties we can measure,” Fu says.
+
+To that end, the team and their collaborators are currently exploring other types of interactions they could leverage to investigate additional material properties.
+
+“This is a very interesting paper,” says Jon Taylor, director of the neutron scattering division at Oak Ridge National Laboratory, who was not involved with this research. “It would be interesting to have a neutron scattering method that is directly sensitive to charge lattice interactions or more generally electronic effects that were not just magnetic moments. It seems that such an effect is expectedly rather small, so facilities like STS could really help develop that fundamental understanding of the interaction and also leverage such effects routinely for research.”
+
+This work is funded, in part, by the U.S. Department of Energy and the National Science

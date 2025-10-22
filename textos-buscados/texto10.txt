@@ -1,0 +1,45 @@
+Learning from punishment
+A new computational model makes sense of the cognitive processes humans use to evaluate punishment.
+Jennifer Michalowski | McGovern Institute for Brain Research
+Publication Date: August 20, 2025
+ PRESS INQUIRIES
+Silhouette of parent scolding a toddler
+Caption: McGovern Institute researchers show that the same punishment can either build respect for authority or deepen distrust — depending on what people already believe.
+Credits: Photo: iStock
+From toddlers’ timeouts to criminals’ prison sentences, punishment reinforces social norms, making it known that an offender has done something unacceptable. At least, that is usually the intent — but the strategy can backfire. When a punishment is perceived as too harsh, observers can be left with the impression that an authority figure is motivated by something other than justice.
+
+It can be hard to predict what people will take away from a particular punishment, because everyone makes their own inferences not just about the acceptability of the act that led to the punishment, but also the legitimacy of the authority who imposed it. A new computational model developed by scientists at MIT’s McGovern Institute for Brain Research makes sense of these complicated cognitive processes, recreating the ways people learn from punishment and revealing how their reasoning is shaped by their prior beliefs.
+
+Their work, reported Aug. 4 in the journal PNAS, explains how a single punishment can send different messages to different people, and even strengthen the opposing viewpoints of groups who hold different opinions about authorities or social norms.
+
+“The key intuition in this model is the fact that you have to be evaluating simultaneously both the norm to be learned and the authority who’s punishing,” says McGovern investigator and John W. Jarve Professor of Brain and Cognitive Sciences Rebecca Saxe, who led the research. “One really important consequence of that is even where nobody disagrees about the facts — everybody knows what action happened, who punished it, and what they did to punish it — different observers of the same situation could come to different conclusions.”
+
+For example, she says, a child who is sent to timeout after biting a sibling might interpret the event differently than the parent. One might see the punishment as proportional and important, teaching the child not to bite. But if the biting, to the toddler, seemed a reasonable tactic in the midst of a squabble, the punishment might be seen as unfair, and the lesson will be lost.
+
+People draw on their own knowledge and opinions when they evaluate these situations — but to study how the brain interprets punishment, Saxe and graduate student Setayesh Radkani wanted to take those personal ideas out of the equation. They needed a clear understanding of the beliefs that people held when they observed a punishment, so they could learn how different kinds of information altered their perceptions. So Radkani set up scenarios in imaginary villages where authorities punished individuals for actions that had no obvious analog in the real world.
+
+Participants observed these scenarios in a series of experiments, with different information offered in each one. In some cases, for example, participants were told that the person being punished was either an ally or a competitor of the authority, whereas in other cases, the authority’s possible bias was left ambiguous.
+
+“That gives us a really controlled setup to vary prior beliefs,” Radkani explains. “We could ask what people learn from observing punitive decisions with different severities, in response to acts that vary in their level of wrongness, by authorities that vary in their level of different motives.”
+
+For each scenario, participants were asked to evaluate four factors: how much the authority figure cared about justice; the selfishness of the authority; the authority’s bias for or against the individual being punished; and the wrongness of the punished act. The research team asked these questions when participants were first introduced to the hypothetical society, then tracked how their responses changed after they observed the punishment. Across the scenarios, participants’ initial beliefs about the authority and the wrongness of the act shaped the extent to which those beliefs shifted after they observed the punishment.
+
+Radkani was able to replicate these nuanced interpretations using a cognitive model framed around an idea that Saxe’s team has long used to think about how people interpret the actions of others. That is, to make inferences about others’ intentions and beliefs, we assume that people choose actions that they expect will help them achieve their goals.
+
+To apply that concept to the punishment scenarios, Radkani developed a model that evaluates the meaning of a punishment (an action aimed at achieving a goal of the authority) by considering the harm associated with that punishment; its costs or benefits to the authority; and its proportionality to the violation. By assessing these factors, along with prior beliefs about the authority and the punished act, the model was able to predict people’s responses to the hypothetical punishment scenarios, supporting the idea that people use a similar mental model. “You need to have them consider those things, or you can’t make sense of how people understand punishment when they observe it,” Saxe says.
+
+Even though the team designed their experiments to preclude preconceived ideas about the people and actions in their imaginary villages, not everyone drew the same conclusions from the punishments they observed. Saxe’s group found that participants’ general attitudes toward authority influenced their interpretation of events. Those with more authoritarian attitudes — assessed through a standard survey — tended to judge punished acts as more wrong and authorities as more motivated by justice than other observers.
+
+“If we differ from other people, there’s a knee-jerk tendency to say, ‘either they have different evidence from us, or they’re crazy,’” Saxe says. Instead, she says, “It’s part of the way humans think about each other’s actions.”
+
+“When a group of people who start out with different prior beliefs get shared evidence, they will not end up necessarily with shared beliefs. That’s true even if everybody is behaving rationally,” says Saxe.
+
+This way of thinking also means that the same action can simultaneously strengthen opposing viewpoints. The Saxe lab’s modeling and experiments showed that when those viewpoints shape individuals’ interpretations of future punishments, the groups’ opinions will continue to diverge. For instance, a punishment that seems too harsh to a group who suspects an authority is biased can make that group even more skeptical of the authority’s future actions. Meanwhile, people who see the same punishment as fair and the authority as just will be more likely to conclude that the authority figure’s future actions are also just. 
+
+“You will get a vicious cycle of polarization, staying and actually spreading to new things,” says Radkani.
+
+The researchers say their findings point toward strategies for communicating social norms through punishment. “It is exactly sensible in our model to do everything you can to make your action look like it’s coming out of a place of care for the long-term outcome of this individual, and that it’s proportional to the norm violation they did,” Saxe says. “That is your best shot at getting a punishment interpreted pedagogically, rather than as evidence that you’re a bully.”
+
+Nevertheless, she says that won’t always be enough. “If the beliefs are strong the other way, it’s very hard to punish and still sustain a belief that you were motivated by justice.”
+
+Joining Saxe and Radkani on the paper is Joshua Tenenbaum, MIT professor of brain and cognitive sciences. The study was funded, in part, by the Patrick J McGovern Foundation.

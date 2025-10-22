@@ -1,0 +1,44 @@
+AI maps how a new antibiotic targets gut bacteria
+MIT CSAIL and McMaster researchers used a generative AI model to reveal how a narrow-spectrum antibiotic attacks disease-causing bacteria, speeding up a process that normally takes years.
+Rachel Gordon | MIT CSAIL
+Publication Date: October 3, 2025
+ PRESS INQUIRIES
+Green bacteria over a black background, with the enterololin compound overlaid in a translucent glowing circle that has a yellow outline.
+Caption: By using AI to sift through more than 10,000 molecules, researchers found enterololin (inset), a compound that blocks a key pathway in harmful gut bacteria and, in mice with IBD, eased infection without disturbing the rest of the microbiome.
+Credits: Image: Alex Shipps/MIT CSAIL, using assets from the researchers and Pexels
+For patients with inflammatory bowel disease, antibiotics can be a double-edged sword. The broad-spectrum drugs often prescribed for gut flare-ups can kill helpful microbes alongside harmful ones, sometimes worsening symptoms over time. When fighting gut inflammation, you don’t always want to bring a sledgehammer to a knife fight.
+
+Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) and McMaster University have identified a new compound that takes a more targeted approach. The molecule, called enterololin, suppresses a group of bacteria linked to Crohn’s disease flare-ups while leaving the rest of the microbiome largely intact. Using a generative AI model, the team mapped how the compound works, a process that usually takes years but was accelerated here to just months.
+
+“This discovery speaks to a central challenge in antibiotic development,” says Jon Stokes, senior author of a new paper on the work, assistant professor of biochemistry and biomedical sciences at McMaster, and research affiliate at MIT’s Abdul Latif Jameel Clinic for Machine Learning in Health. “The problem isn’t finding molecules that kill bacteria in a dish — we’ve been able to do that for a long time. A major hurdle is figuring out what those molecules actually do inside bacteria. Without that detailed understanding, you can’t develop these early-stage antibiotics into safe and effective therapies for patients.”
+
+Enterololin is a stride toward precision antibiotics: treatments designed to knock out only the bacteria causing trouble. In mouse models of Crohn’s-like inflammation, the drug zeroed in on Escherichia coli, a gut-dwelling bacterium that can worsen flares, while leaving most other microbial residents untouched. Mice given enterololin recovered faster and maintained a healthier microbiome than those treated with vancomycin, a common antibiotic.
+
+Pinning down a drug’s mechanism of action, the molecular target it binds inside bacterial cells, normally requires years of painstaking experiments. Stokes’ lab discovered enterololin using a high-throughput screening approach, but determining its target would have been the bottleneck. Here, the team turned to DiffDock, a generative AI model developed at CSAIL by MIT PhD student Gabriele Corso and MIT Professor Regina Barzilay.
+
+DiffDock was designed to predict how small molecules fit into the binding pockets of proteins, a notoriously difficult problem in structural biology. Traditional docking algorithms search through possible orientations using scoring rules, often producing noisy results. DiffDock instead frames docking as a probabilistic reasoning problem: a diffusion model iteratively refines guesses until it converges on the most likely binding mode.
+
+“In just a couple of minutes, the model predicted that enterololin binds to a protein complex called LolCDE, which is essential for transporting lipoproteins in certain bacteria,” says Barzilay, who also co-leads the Jameel Clinic. “That was a very concrete lead — one that could guide experiments, rather than replace them.”
+
+Stokes’ group then put that prediction to the test. Using DiffDock predictions as an experimental GPS, they first evolved enterololin-resistant mutants of E. coli in the lab, which revealed that changes in the mutant’s DNA mapped to lolCDE, precisely where DiffDock had predicted enterololin to bind. They also performed RNA sequencing to see which bacterial genes switched on or off when exposed to the drug, as well as used CRISPR to selectively knock down expression of the expected target. These laboratory experiments all revealed disruptions in pathways tied to lipoprotein transport, exactly what DiffDock had predicted.
+
+“When you see the computational model and the wet-lab data pointing to the same mechanism, that’s when you start to believe you’ve figured something out,” says Stokes.
+
+For Barzilay, the project highlights a shift in how AI is used in the life sciences. “A lot of AI use in drug discovery has been about searching chemical space, identifying new molecules that might be active,” she says. “What we’re showing here is that AI can also provide mechanistic explanations, which are critical for moving a molecule through the development pipeline.”
+
+That distinction matters because mechanism-of-action studies are often a major rate-limiting step in drug development. Traditional approaches can take 18 months to two years, or more, and cost millions of dollars. In this case, the MIT–McMaster team cut the timeline to about six months, at a fraction of the cost.
+
+Enterololin is still in the early stages of development, but translation is already underway. Stokes’ spinout company, Stoked Bio, has licensed the compound and is optimizing its properties for potential human use. Early work is also exploring derivatives of the molecule against other resistant pathogens, such as Klebsiella pneumoniae. If all goes well, clinical trials could begin within the next few years.
+
+The researchers also see broader implications. Narrow-spectrum antibiotics have long been sought as a way to treat infections without collateral damage to the microbiome, but they have been difficult to discover and validate. AI tools like DiffDock could make that process more practical, rapidly enabling a new generation of targeted antimicrobials.
+
+For patients with Crohn’s and other inflammatory bowel conditions, the prospect of a drug that reduces symptoms without destabilizing the microbiome could mean a meaningful improvement in quality of life. And in the bigger picture, precision antibiotics may help tackle the growing threat of antimicrobial resistance.
+
+“What excites me is not just this compound, but the idea that we can start thinking about the mechanism of action elucidation as something we can do more quickly, with the right combination of AI, human intuition, and laboratory experiments,” says Stokes. “That has the potential to change how we approach drug discovery for many diseases, not just Crohn’s.”
+
+“One of the greatest challenges to our health is the increase of antimicrobial-resistant bacteria that evade even our best antibiotics,” adds Yves Brun, professor at the University of Montreal and distinguished professor emeritus at Indiana University Bloomington, who wasn’t involved in the paper. “AI is becoming an important tool in our fight against these bacteria. This study uses a powerful and elegant combination of AI methods to determine the mechanism of action of a new antibiotic candidate, an important step in its potential development as a therapeutic.”
+
+Corso, Barzilay, and Stokes wrote the paper with McMaster researchers Denise B. Catacutan, Vian Tran, Jeremie Alexander, Yeganeh Yousefi, Megan Tu, Stewart McLellan, and Dominique Tertigas, and professors ​​Jakob Magolan, Michael Surette, Eric Brown, and Brian Coombes. Their research was supported, in part, by the Weston Family Foundation; the David Braley Centre for Antibiotic Discovery; the Canadian Institutes of Health Research; the Natural Sciences and Engineering Research Council of Canada; M. and M. Heersink; Canadian Institutes for Health Research; Ontario Graduate Scholarship Award; the Jameel Clinic; and the U.S. Defense Threat Reduction Agency Discovery of Medical Countermeasures Against New and Emerging Threats program.
+
+The researchers posted sequencing data in public repositories and released the DiffDock-L code openly on GitHub.
+

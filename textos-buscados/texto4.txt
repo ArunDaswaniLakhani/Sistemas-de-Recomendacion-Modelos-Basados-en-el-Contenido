@@ -1,0 +1,41 @@
+Machine-learning tool gives doctors a more detailed 3D picture of fetal health
+MIT CSAIL researchers developed a tool that can model the shape and movements of fetuses in 3D, potentially assisting doctors in finding abnormalities and making diagnoses.
+Alex Shipps | MIT CSAIL
+Publication Date: September 15, 2025
+ PRESS INQUIRIES
+Illustration shows three fetuses, each circled in blue, in different poses. A series of MRI images forms the background.
+Caption: Fetal SMPL was trained on 20,000 MRI volumes to predict the location and size of a fetus and create sculpture-like 3D representations. The approach could enable doctors to precisely measure things like the size of a baby’s head and compare these metrics with healthy fetuses at the same age.
+Credits: Image: Alex Shipps and Yingcheng Liu/MIT CSAIL
+For pregnant women, ultrasounds are an informative (and sometimes necessary) procedure. They typically produce two-dimensional black-and-white scans of fetuses that can reveal key insights, including biological sex, approximate size, and abnormalities like heart issues or cleft lip. If your doctor wants a closer look, they may use magnetic resonance imaging (MRI), which uses magnetic fields to capture images that can be combined to create a 3D view of the fetus.
+
+MRIs aren’t a catch-all, though; the 3D scans are difficult for doctors to interpret well enough to diagnose problems because our visual system is not accustomed to processing 3D volumetric scans (in other words, a wrap-around look that also shows us the inner structures of a subject). Enter machine learning, which could help model a fetus’s development more clearly and accurately from data — although no such algorithm has been able to model their somewhat random movements and various body shapes.
+
+That is, until a new approach called “Fetal SMPL” from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), Boston Children’s Hospital (BCH), and Harvard Medical School presented clinicians with a more detailed picture of fetal health. It was adapted from “SMPL” (Skinned Multi-Person Linear model), a 3D model developed in computer graphics to capture adult body shapes and poses, as a way to represent fetal body shapes and poses accurately. Fetal SMPL was then trained on 20,000 MRI volumes to predict the location and size of a fetus and create sculpture-like 3D representations. Inside each model is a skeleton with 23 articulated joints called a “kinematic tree,” which the system uses to pose and move like the fetuses it saw during training.
+
+The extensive, real-world scans that Fetal SMPL learned from helped it develop pinpoint accuracy. Imagine stepping into a stranger’s footprint while blindfolded, and not only does it fit perfectly, but you correctly guess what shoe they wore — similarly, the tool closely matched the position and size of fetuses in MRI frames it hadn’t seen before. Fetal SMPL was only misaligned by an average of about 3.1 millimeters, a gap smaller than a single grain of rice.
+
+The approach could enable doctors to precisely measure things like the size of a baby’s head or abdomen and compare these metrics with healthy fetuses at the same age. Fetal SMPL has demonstrated its clinical potential in early tests, where it achieved accurate alignment results on a small group of real-world scans.
+
+“It can be challenging to estimate the shape and pose of a fetus because they’re crammed into the tight confines of the uterus,” says lead author, MIT PhD student, and CSAIL researcher Yingcheng Liu SM ’21. “Our approach overcomes this challenge using a system of interconnected bones under the surface of the 3D model, which represent the fetal body and its motions realistically. Then, it relies on a coordinate descent algorithm to make a prediction, essentially alternating between guessing pose and shape from tricky data until it finds a reliable estimate.”
+
+In utero
+
+Fetal SMPL was tested on shape and pose accuracy against the closest baseline the researchers could find: a system that models infant growth called “SMIL.” Since babies out of the womb are larger than fetuses, the team shrank those models by 75 percent to level the playing field.
+
+The system outperformed this baseline on a dataset of fetal MRIs between the gestational ages of 24 and 37 weeks taken at Boston Children’s Hospital. Fetal SMPL was able to recreate real scans more precisely, as its models closely lined up with real MRIs.
+
+The method was efficient at lining up their models to images, only needing three iterations to arrive at a reasonable alignment. In an experiment that counted how many incorrect guesses Fetal SMPL had made before arriving at a final estimate, its accuracy plateaued from the fourth step onward.
+
+The researchers have just begun testing their system in the real world, where it produced similarly accurate models in initial clinical tests. While these results are promising, the team notes that they’ll need to apply their results to larger populations, different gestational ages, and a variety of disease cases to better understand the system’s capabilities.
+
+Only skin deep
+
+Liu also notes that their system only helps analyze what doctors can see on the surface of a fetus, since only bone-like structures lie beneath the skin of the models. To better monitor babies’ internal health, such as liver, lung, and muscle development, the team intends to make their tool volumetric, modeling the fetus’s inner anatomy from scans. Such upgrades would make the models more human-like, but the current version of Fetal SMPL already presents a precise (and unique) upgrade to 3D fetal health analysis.
+
+“This study introduces a method specifically designed for fetal MRI that effectively captures fetal movements, enhancing the assessment of fetal development and health,” says Kiho Im, Harvard Medical School associate professor of pediatrics and staff scientist in the Division of Newborn Medicine at BCH’s Fetal-Neonatal Neuroimaging and Developmental Science Center. Im, who was not involved with the paper, adds that this approach “will not only improve the diagnostic utility of fetal MRI, but also provide insights into the early functional development of the fetal brain in relation to body movements.”
+
+“This work reaches a pioneering milestone by extending parametric surface human body models for the earliest shapes of human life: fetuses,” says Sergi Pujades, an associate professor at University Grenoble Alpes, who wasn’t involved in the research. “It allows us to detangle the shape and motion of a human, which has already proven to be key in understanding how adult body shape relates to metabolic conditions and how infant motion relates to neurodevelopmental disorders. In addition, the fact that the fetal model stems from, and is compatible with, the adult (SMPL) and infant (SMIL) body models, will allow us to study human shape and pose evolution over long periods of time. This is an unprecedented opportunity to further quantify how human shape growth and motion are affected by different conditions.”
+
+Liu wrote the paper with three CSAIL members: Peiqi Wang SM ’22, PhD ’25; MIT PhD student Sebastian Diaz; and senior author Polina Golland, the Sunlin and Priscilla Chou Professor of Electrical Engineering and Computer Science, a principal investigator in MIT CSAIL, and the leader of the Medical Vision Group. BCH assistant professor of pediatrics Esra Abaci Turk, Inria researcher Benjamin Billot, and Harvard Medical School professor of pediatrics and professor of radiology Patricia Ellen Grant are also authors on the paper. This work was supported, in part, by the National Institutes of Health and the MIT CSAIL-Wistron Program.
+
+The researchers will present their work at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) in September.
